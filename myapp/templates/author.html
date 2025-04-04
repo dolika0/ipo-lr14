@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница об авторе</title> 
+    <style>
+        body{
+            background-color: rgb(255, 112, 255);  
+            color: white;  
+            font-family: Ink Free, sans-serif;  
+            text-align: center;   
+            padding: 50px; 
+        }
+</style>
+</head>
+<body>
+    <h1>Об авторе</h1>
+    <h2>Чайковская Елена Витальевна</h2>
+    <h2>Группа 81ТП</h2>
+    <h2>17 лет</h2>
+    <h2>Усердно учу python</h2>
+    <br>
+    <br>
+    <img  src="{% static 'img/mars.png' %}"  width="500" height="500"alt="photo" >  
+    <br>
+    <br>
+    <br>
+    <div class="link">
+        <a href="http://127.0.0.1:8000" style="color: black;"> На главную</a>
+    </div>
+    
+</body>
+</html>
